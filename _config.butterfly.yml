@@ -4,9 +4,9 @@ menu:
   # 归档: /archives/ || fas fa-archive
   # 标签: /tags/ || fas fa-tags
   # 分类: /categories/ || fas fa-folder-open
-  日常记录:
+  日常记录 || fas fa-pen: 
     摄影: /categories/photos/ || fas fa-camera
-  清单:
+  清单 || fas fa-list:
     音乐: /categories/music/ || fas fa-music
     影视: /categories/movies/ || fas fa-video
     动画: /categories/anime/ || fas fa-film
