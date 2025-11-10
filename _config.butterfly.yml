@@ -1,16 +1,18 @@
 # 1. 修改顶部导航菜单 (注意缩进!)
 menu:
   首页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
+  # 归档: /archives/ || fas fa-archive
+  # 标签: /tags/ || fas fa-tags
+  # 分类: /categories/ || fas fa-folder-open
+  日常记录:
+    摄影: /categories/photos/ || fas fa-camera
   清单:
-    音乐: /music/ || fas fa-music
-    影视: /movies/ || fas fa-video
-    动画: /anime/ || fas fa-film
-    游戏: /games/ || fas fa-gamepad
-    书单: /books/ || fas fa-book
-  关于: /about/ || fas fa-heart
+    音乐: /categories/music/ || fas fa-music
+    影视: /categories/movies/ || fas fa-video
+    动画: /categories/anime/ || fas fa-film
+    游戏: /categories/games/ || fas fa-gamepad
+    书单: /categories/books/ || fas fa-book
+  # 关于: /about/ || fas fa-heart
 
 # 2. 修改个人信息卡片 (侧边栏那个)
 avatar:
@@ -18,8 +20,8 @@ avatar:
   effect: true # 头像会转动！
 
 social:
-  fab fa-github: https://github.com/xxxxx || Github || "#hdhfbb"
-  fab fa-bilibili: https://www.bilibili.com/ || bilibili || "#23ade5"
+  fab fa-github: https://github.com/HeiSha-NZH || Github || "#hdhfbb"
+  fab fa-bilibili: https://space.bilibili.com/19236364 || bilibili || "#23ade5"
 
 
 aside:
@@ -46,11 +48,28 @@ aside:
     # 作者描述
     description:
     button:
-      # 是否顯示按鈕
-      enable: true
-      # 按鈕圖標
-      icon: fab fa-github
-      # 按鈕文本
-      text: Follow Me
-      # 按鈕鏈接
-      link: https://github.com/HeiSha-NZH
+      # 是否显示按钮
+      enable: false
+  card_announcement:
+    enable: false
+
+post_copyright:
+  # 是否启用版权声明
+  enable: false
+
+reward:
+  # 打赏赞助页面
+  enable: false
+  text:
+  QR_code:
+    - img: /img/wechat.jpg
+      link:
+      text: 微信
+    - img: /img/alipay.jpg
+      link:
+      text: 支付宝
+
+share:
+  # 两种分享方式: sharejs / addtoany
+  # 不需要分享请留空
+  use: 

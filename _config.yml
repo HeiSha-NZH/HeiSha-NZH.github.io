@@ -67,6 +67,12 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  摄影: photos
+  音乐: music
+  影视: movies
+  动画: anime
+  游戏: games
+  书单: books
 tag_map:
 
 # Metadata elements
