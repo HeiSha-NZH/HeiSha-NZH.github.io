@@ -1,0 +1,25 @@
+# 1. 修改顶部导航菜单 (注意缩进!)
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  清单:
+    音乐: /music/ || fas fa-music
+    影视: /movies/ || fas fa-video
+    动画: /anime/ || fas fa-film
+    游戏: /games/ || fas fa-gamepad
+    书单: /books/ || fas fa-book
+  关于: /about/ || fas fa-heart
+
+# 2. 修改个人信息卡片 (侧边栏那个)
+avatar:
+  img: https://你的头像图片地址.jpg # 可以是网络图片，也可以是 /img/avatar.jpg
+  effect: true # 头像会转动！
+author_description: "一只正在学 Hexo 的黑纱"
+
+# 3. 社交图标 (在个人卡片下面显示)
+social:
+  github: https://github.com/HeiSha-NZH || fab fa-github || "#000000"
+  bilibili: https://www.bilibili.com/ || fab fa-bilibili || "#23ade5"
+  # email: mailto:你的邮箱@example.com || fas fa-envelope || "#0078d4"
