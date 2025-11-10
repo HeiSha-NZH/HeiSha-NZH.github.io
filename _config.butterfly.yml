@@ -14,12 +14,43 @@ menu:
 
 # 2. 修改个人信息卡片 (侧边栏那个)
 avatar:
-  img: https://你的头像图片地址.jpg # 可以是网络图片，也可以是 /img/avatar.jpg
+  img: /img/avatar.jpg # 可以是网络图片，也可以是 /img/avatar.jpg
   effect: true # 头像会转动！
-author_description: "一只正在学 Hexo 的黑纱"
 
-# 3. 社交图标 (在个人卡片下面显示)
 social:
-  github: https://github.com/HeiSha-NZH || fab fa-github || "#000000"
-  bilibili: https://www.bilibili.com/ || fab fa-bilibili || "#23ade5"
-  # email: mailto:你的邮箱@example.com || fas fa-envelope || "#0078d4"
+  fab fa-github: https://github.com/xxxxx || Github || "#hdhfbb"
+  fab fa-bilibili: https://www.bilibili.com/ || bilibili || "#23ade5"
+
+
+aside:
+  # 是否啟用側邊欄
+  enable: true
+  # 是否默認隱藏側邊欄
+  hide: false
+  # 是否在右下角顯示隱藏側邊欄的按鈕
+  button: true
+  # 移動設備上是否啟用側邊欄
+  mobile: true
+  # 側邊欄位置：left / right
+  position: right
+  display:
+    # 歸檔頁面是否顯示側邊欄
+    archive: true
+    # 標籤頁面是否顯示側邊欄
+    tag: true
+    # 分類頁面是否顯示側邊欄
+    category: true
+  card_author:
+    # 是否顯示作者信息卡片
+    enable: true
+    # 作者描述
+    description:
+    button:
+      # 是否顯示按鈕
+      enable: true
+      # 按鈕圖標
+      icon: fab fa-github
+      # 按鈕文本
+      text: Follow Me
+      # 按鈕鏈接
+      link: https://github.com/HeiSha-NZH
